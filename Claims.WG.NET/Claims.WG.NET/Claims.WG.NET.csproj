@@ -38,6 +38,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Claims_demos.cs" />
     <Compile Include="Generic_demos.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Windows_demos.cs" />
