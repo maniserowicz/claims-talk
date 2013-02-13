@@ -22,6 +22,14 @@ namespace Claims.WG.NET
         }
 
         [Fact]
+        public void generic_identity_with_name_implies_authentication()
+        {
+            Assert.True(
+                Thread.CurrentPrincipal.Identity.IsAuthenticated
+            );
+        }
+
+        [Fact]
         public void use_id()
         {
             string name = Thread.CurrentPrincipal.Identity.Name;
