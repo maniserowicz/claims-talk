@@ -41,6 +41,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ClaimsAuthorization_demos.cs" />
     <Compile Include="ClaimsTransformation_demos.cs" />
     <Compile Include="Claims_demos.cs" />
     <Compile Include="CustomIdentity_demos.cs" />
