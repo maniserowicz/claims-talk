@@ -41,13 +41,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ClaimsAuthorization_demos.cs" />
-    <Compile Include="ClaimsTransformation_demos.cs" />
-    <Compile Include="Claims_demos.cs" />
-    <Compile Include="CustomIdentity_demos.cs" />
-    <Compile Include="Generic_demos.cs" />
+    <Compile Include="6.ClaimsAuthorization_demos.cs" />
+    <Compile Include="5.ClaimsTransformation_demos.cs" />
+    <Compile Include="3.Claims_demos.cs" />
+    <Compile Include="4.CustomIdentity_demos.cs" />
+    <Compile Include="2.Generic_demos.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Windows_demos.cs" />
+    <Compile Include="1.Windows_demos.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
