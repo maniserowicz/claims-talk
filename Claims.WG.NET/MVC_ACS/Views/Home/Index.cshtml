@@ -1,0 +1,32 @@
+﻿@using System.Security.Claims
+<!DOCTYPE html>
+
+@{
+    var principal = ClaimsPrincipal.Current;
+}
+
+<html>
+    <head>
+        <title>Claims demo</title>
+    </head>
+    <body>
+        <h1>Claims obtained from @principal.Identity.AuthenticationType</h1>
+        <div>
+            <table>
+                <tr>
+                    <th>Type</th>
+                    <th>Value</th>
+                    <th>Issuer</th>
+                </tr>
+                @foreach (var claim in principal.Claims)
+                {
+                    <tr>
+                        <td>@claim.Type</td>
+                        <td>@claim.Value</td>
+                        <td>@claim.Issuer</td>
+                    </tr>
+                }
+            </table>
+        </div>
+    </body>
+</html>
