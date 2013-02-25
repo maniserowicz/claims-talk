@@ -35,7 +35,7 @@ public class Windows_demos
     }
 
     [Fact]
-    public void is_in_role_admins_sid()
+    public void is_in_role_users_sid()
     {
         var user = get_current_user();
 
