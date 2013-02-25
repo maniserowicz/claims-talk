@@ -24,7 +24,7 @@ public class Windows_demos
     }
 
     [Fact]
-    public void is_user_string()
+    public void is_in_role_users_string()
     {
         var user = get_current_user();
 
@@ -35,7 +35,7 @@ public class Windows_demos
     }
 
     [Fact]
-    public void is_admin_sid()
+    public void is_in_role_admins_sid()
     {
         var user = get_current_user();
 
