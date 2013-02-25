@@ -1,0 +1,4 @@
+<wsFederation passiveRedirectEnabled="true"
+    issuer="https://localhost:10443/issue/hrd"
+    realm="http//customsts"
+/>

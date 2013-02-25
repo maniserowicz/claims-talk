@@ -3,6 +3,22 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Claims.WG.NET", "Claims.WG.NET\Claims.WG.NET.csproj", "{9C1A5456-9825-43EF-98CA-5487F7321060}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_snippets", "_snippets", "{9455E7D0-2EBC-4B4D-B603-5722A38B92DC}"
+	ProjectSection(SolutionItems) = preProject
+		_snippets\1.Windows_demos.cs = _snippets\1.Windows_demos.cs
+		_snippets\2.Generic_demos.cs = _snippets\2.Generic_demos.cs
+		_snippets\3.Claims_demos.cs = _snippets\3.Claims_demos.cs
+		_snippets\4.CustomIdentity_demos.cs = _snippets\4.CustomIdentity_demos.cs
+		_snippets\5.ClaimsTransformation_demos.cs = _snippets\5.ClaimsTransformation_demos.cs
+		_snippets\6.ClaimsAuthorization_demos.cs = _snippets\6.ClaimsAuthorization_demos.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7_mvc", "7_mvc", "{3FCEB434-2858-41D1-B5D1-6C5800D884C9}"
+	ProjectSection(SolutionItems) = preProject
+		_snippets\index.txt = _snippets\index.txt
+		_snippets\sts-federation-config.txt = _snippets\sts-federation-config.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -16,5 +32,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3FCEB434-2858-41D1-B5D1-6C5800D884C9} = {9455E7D0-2EBC-4B4D-B603-5722A38B92DC}
 	EndGlobalSection
 EndGlobal
