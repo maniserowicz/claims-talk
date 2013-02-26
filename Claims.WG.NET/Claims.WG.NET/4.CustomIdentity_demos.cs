@@ -1,23 +1,25 @@
-﻿using System.Security.Claims;
+﻿using System;
+using System.Security.Claims;
 using System.Security.Principal;
 using Xunit;
 
 namespace Claims.WG.NET
 {
+
+    // "http://facebook.com/claims/friendsCount"
+
     public class FacebookIdentity : GenericIdentity
     {
         public FacebookIdentity(string name, int friendsCount)
             : base(name, "facebook auth")
         {
-            // create claim...
+            // add custom claim
         }
 
         public int FriendsCount
         {
             get
             {
-                // return claim value...
-
                 return 0;
             }
         }

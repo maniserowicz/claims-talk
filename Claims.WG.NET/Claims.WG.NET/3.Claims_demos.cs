@@ -41,10 +41,20 @@ namespace Claims.WG.NET
 
 
 
+
+
+
         [Fact]
         public void GenericPrincipal_inherits_from_ClaimsPrincipal()
         {
         }
+
+
+
+
+
+
+
 
 
 
@@ -63,9 +73,6 @@ namespace Claims.WG.NET
 
 
 
-
-
-
         [Fact]
         public void identity_is_mapped_to_claims_identity()
         {
@@ -77,14 +84,10 @@ namespace Claims.WG.NET
 
 
 
-
-
         [Fact]
         public void generic_roles_are_translated_to_claims()
         {
         }
-
-
 
 
 
@@ -112,11 +115,13 @@ namespace Claims.WG.NET
 
 
 
+
+
+
         [Fact]
         public void claims_provide_information_for_anonymous_identities()
         {
         }
-
 
 
 
@@ -135,10 +140,13 @@ namespace Claims.WG.NET
 
 
 
+
         [Fact]
         public void any_claim_can_be_mapped_to_name___or_roles()
         {
+
         }
+
 
 
 
@@ -148,8 +156,20 @@ namespace Claims.WG.NET
 
 
         [Fact]
-        public void ClaimsPrincipal_can_be_build_from_multiple_identities()
+        public void ClaimsPrincipal_can_be_built_from_multiple_identities()
         {
         }
+
+
+
+
+
+
+
+
+
+
+
+
     }
 }
