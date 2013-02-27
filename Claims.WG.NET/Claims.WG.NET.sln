@@ -11,6 +11,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_snippets", "_snippets", "{
 		_snippets\4.CustomIdentity_demos.cs = _snippets\4.CustomIdentity_demos.cs
 		_snippets\5.ClaimsTransformation_demos.cs = _snippets\5.ClaimsTransformation_demos.cs
 		_snippets\6.ClaimsAuthorization_demos.cs = _snippets\6.ClaimsAuthorization_demos.cs
+		summary.txt = summary.txt
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7_mvc", "7_mvc", "{3FCEB434-2858-41D1-B5D1-6C5800D884C9}"

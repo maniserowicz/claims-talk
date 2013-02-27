@@ -1,0 +1,5 @@
+1. Claims are here!
+
+2. ...nicely integrated in .NET 4.5
+
+3. Remove all identity-related code from your application
